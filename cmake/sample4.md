@@ -117,6 +117,6 @@ main.cpp 包含头文件 config.h。config.h 定义了 USE_MYMATH，我们编写
                    
 * 直接使用默认值。
 * 使用**ccmake**或**cmake -i**交互式的选择选项的值。
-![image text](https://github.com/zhang0xf/cmake/blob/main/image/Image1.png)
-![image text](https://github.com/zhang0xf/cmake/blob/main/image/Image2.png)
-![image text](https://github.com/zhang0xf/cmake/blob/main/image/Image3.png)
+![image text](https://github.com/zhang0xf/memo/blob/main/cmake/image/Image1.png)
+![image text](https://github.com/zhang0xf/memo/blob/main/cmake/image/Image2.png)
+![image text](https://github.com/zhang0xf/memo/blob/main/cmake/image/Image3.png)
