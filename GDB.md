@@ -187,7 +187,7 @@ thread ID
 ```
 在所有线程的某行设置断点
 ```
-break thread_test.c:123 thread all
+break file.c:123 thread all
 ```
 在一系列线程上执行命令
 ```
