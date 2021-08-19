@@ -174,3 +174,33 @@ show listsize 查看当前listsize设置
 ```
 show listsize
 ```
+
+## 多线程
+
+显示当前可调试的所有线程，会显示线程ID
+```
+info threads 
+```
+切换到指定ID的线程
+```
+thread ID 
+```
+在所有线程的某行设置断点
+```
+break thread_test.c:123 thread all
+```
+在一系列线程上执行命令
+```
+thread apply [thread-id-list] [all] args
+```
+控制打印线程启动或结束是的信息
+```
+set print thread-events
+```
+使用step或是continue调试时，其他线程会并行执行，需锁定线程
+```
+set scheduler-locking off|on|step
+```
+`off：不锁定任何线程，也就是所有的线程都执行，这是默认值。`
+`on：只有当前被调试的线程能够执行。`
+`step：阻止其他线程在当前线程单步调试时，抢占当前线程。只有当next、continue、util以及finish的时候，其他线程才会获得重新运行的机会。`
