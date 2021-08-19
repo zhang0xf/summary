@@ -202,5 +202,7 @@ set print thread-events
 set scheduler-locking off|on|step
 ```
 `off：不锁定任何线程，也就是所有的线程都执行，这是默认值。`
+
 `on：只有当前被调试的线程能够执行。`
+
 `step：阻止其他线程在当前线程单步调试时，抢占当前线程。只有当next、continue、util以及finish的时候，其他线程才会获得重新运行的机会。`
