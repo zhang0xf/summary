@@ -209,7 +209,7 @@ set scheduler-locking off|on|step
 
 ## .core文件
 
-查看受否可以生成.core文件
+查看是否可以生成.core文件
 ```
 ulimit -c
 ```
