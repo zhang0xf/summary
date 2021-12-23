@@ -45,33 +45,28 @@ deb-src http://mirrors.aliyun.com/ubuntu/ bionic-backports main restricted unive
 #### 2. 安装vscode
 略
 
-#### 3. 安装vscode插件remote -wsl
+#### 3. vscode安装插件remote -wsl
 略
 
-#### 4. 进入项目，install vscode server
+#### 4. install vscode server
 
 `cd "your project"`
 
 `code .`
 
-#### 5. 更新wsl2
+#### 5. 【推荐】更新wsl2
 
-1. 查看版本信息
-`wsl -l -v`
+1. 查看版本信息：`wsl -l -v`
 
-2. 启用虚拟机功能, 使用 PowerShell 以管理员身份运行：
-`dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /norestart`
+2. 启用虚拟机功能, 使用 PowerShell 以管理员身份运行：`dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /norestart`
 
 3. 重启电脑
 
-4. 下载linux内核更新包
-[msi文件](https://wslstorestorage.blob.core.windows.net/wslblob/wsl_update_x64.msi)
+4. 下载linux内核更新包：[msi文件](https://wslstorestorage.blob.core.windows.net/wslblob/wsl_update_x64.msi)
 
 5. 运行安装包
 
-6. 将 Ubuntu18.04 设置为WSL2
-`wsl --set-version Ubuntu-18.04 2`
+6. 将 Ubuntu18.04 设置为WSL2：`wsl --set-version Ubuntu-18.04 2`
 
-7. 查看版本信息
-`wsl -l -v`
+7. 查看版本信息：`wsl -l -v`
 
