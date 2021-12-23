@@ -70,3 +70,7 @@ deb-src http://mirrors.aliyun.com/ubuntu/ bionic-backports main restricted unive
 
 7. 查看版本信息：`wsl -l -v`
 
+## 参考
+
+[https://www.cnblogs.com/stulzq/p/13926936.html](https://www.cnblogs.com/stulzq/p/13926936.html)
+
