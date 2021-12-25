@@ -70,6 +70,8 @@ deb-src http://mirrors.aliyun.com/ubuntu/ bionic-backports main restricted unive
 
 7. 查看版本信息：`wsl -l -v`
 
+#### 6. 为wsl重新安装插件
+
 ## 参考
 
 [https://www.cnblogs.com/stulzq/p/13926936.html](https://www.cnblogs.com/stulzq/p/13926936.html)
