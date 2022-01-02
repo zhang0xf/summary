@@ -42,3 +42,25 @@
 
 1. `sudo/etc/init.d/mysql restart`
 2. `sudo service mysql restart`
+
+# 连接windows子系统的mysql
+
+## 1. 查看mysql端口
+
+1. `mysql -uroot -p123456`
+2. `show global variables like 'port';`
+
+## 2. 退出并关闭mysql
+
+## 3. 更改端口号（windows已安装过mysql）
+
+1. `vim /etc/mysql/mysql.conf.d/mysqld.cnf`
+2. `sudo /etc/init.d/mysql start`
+3. `mysql -uroot -p123456`
+4. `show global variables like 'port';`
+
+## 4. windows cmd/DBeaver连接mysql
+
+1. `mysql -h localhost -P 3333 -u root -p`
+
+
