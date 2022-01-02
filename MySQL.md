@@ -52,6 +52,9 @@
 
 ## 2. 退出并关闭mysql
 
+1. `exit`
+2. `sudo /etc/init.d/mysql stop`
+
 ## 3. 更改端口号（windows已安装过mysql）
 
 1. `vim /etc/mysql/mysql.conf.d/mysqld.cnf`
